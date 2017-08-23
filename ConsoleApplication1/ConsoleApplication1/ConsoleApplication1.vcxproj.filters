@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CTPAPI">
+      <UniqueIdentifier>{2acf47e2-ae7d-4bf9-aef5-a71a16a7dfe0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataCollector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTAAPI\ThostFtdcMdApi.h">
+      <Filter>CTPAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTAAPI\ThostFtdcTraderApi.h">
+      <Filter>CTPAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTAAPI\ThostFtdcUserApiDataType.h">
+      <Filter>CTPAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTAAPI\ThostFtdcUserApiStruct.h">
+      <Filter>CTPAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPAPI\ThostFtdcMdApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPAPI\ThostFtdcTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPAPI\ThostFtdcUserApiDataType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPAPI\ThostFtdcUserApiStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataCollector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CTAAPI\thosttraderapi.lib">
+      <Filter>CTPAPI</Filter>
+    </Library>
+    <Library Include="CTPAPI\thosttraderapi.lib" />
+    <Library Include="CTPAPI\thostmduserapi.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CTAAPI\error.dtd">
+      <Filter>CTPAPI</Filter>
+    </None>
+    <None Include="CTAAPI\thostmduserapi.dll">
+      <Filter>CTPAPI</Filter>
+    </None>
+    <None Include="CTAAPI\thosttraderapi.dll">
+      <Filter>CTPAPI</Filter>
+    </None>
+    <None Include="CTPAPI\thosttraderapi.dll" />
+    <None Include="CTPAPI\thostmduserapi.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="CTAAPI\error.xml">
+      <Filter>CTPAPI</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
